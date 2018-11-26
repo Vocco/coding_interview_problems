@@ -18,13 +18,13 @@ The solution algorithm is the function find_kth_last.
 
 Examples
 --------
-    >>> import dcp
-    >>> linked_list = dcp.SinglyLinkedList([5, 4, 6, 8])
-    >>> dcp.find_kth_last(linked_list, 1).val
+    >>> import kth_last_element_linked_list as klell
+    >>> linked_list = klell.SinglyLinkedList([5, 4, 6, 8])
+    >>> klell.find_kth_last(linked_list, 1).val
     8
-    >>> dcp.find_kth_last(linked_list, 2).val
+    >>> klell.find_kth_last(linked_list, 2).val
     6
-    >>> dcp.find_kth_last(linked_list, 4).val
+    >>> klell.find_kth_last(linked_list, 4).val
     5
 """
 
